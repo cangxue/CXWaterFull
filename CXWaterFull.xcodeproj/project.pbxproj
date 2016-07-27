@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D18A302C1D488CB400C4C95E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D18A302B1D488CB400C4C95E /* main.m */; };
+		D18A302F1D488CB400C4C95E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D18A302E1D488CB400C4C95E /* AppDelegate.m */; };
+		D18A30321D488CB400C4C95E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D18A30311D488CB400C4C95E /* ViewController.m */; };
+		D18A30351D488CB400C4C95E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18A30331D488CB400C4C95E /* Main.storyboard */; };
+		D18A30371D488CB400C4C95E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18A30361D488CB400C4C95E /* Assets.xcassets */; };
+		D18A303A1D488CB400C4C95E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18A30381D488CB400C4C95E /* LaunchScreen.storyboard */; };
+		D18A30451D488CB400C4C95E /* CXWaterFullTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D18A30441D488CB400C4C95E /* CXWaterFullTests.m */; };
+		D18A30501D488CB400C4C95E /* CXWaterFullUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D18A304F1D488CB400C4C95E /* CXWaterFullUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D18A30411D488CB400C4C95E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D18A301F1D488CB400C4C95E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D18A30261D488CB400C4C95E;
+			remoteInfo = CXWaterFull;
+		};
+		D18A304C1D488CB400C4C95E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D18A301F1D488CB400C4C95E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D18A30261D488CB400C4C95E;
+			remoteInfo = CXWaterFull;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D18A30271D488CB400C4C95E /* CXWaterFull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXWaterFull.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18A302B1D488CB400C4C95E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D18A302D1D488CB400C4C95E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D18A302E1D488CB400C4C95E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D18A30301D488CB400C4C95E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D18A30311D488CB400C4C95E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D18A30341D488CB400C4C95E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D18A30361D488CB400C4C95E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D18A30391D488CB400C4C95E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D18A303B1D488CB400C4C95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D18A30401D488CB400C4C95E /* CXWaterFullTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CXWaterFullTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18A30441D488CB400C4C95E /* CXWaterFullTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXWaterFullTests.m; sourceTree = "<group>"; };
+		D18A30461D488CB400C4C95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D18A304B1D488CB400C4C95E /* CXWaterFullUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CXWaterFullUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18A304F1D488CB400C4C95E /* CXWaterFullUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXWaterFullUITests.m; sourceTree = "<group>"; };
+		D18A30511D488CB400C4C95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D18A30241D488CB400C4C95E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D18A303D1D488CB400C4C95E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D18A30481D488CB400C4C95E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D18A301E1D488CB400C4C95E = {
+			isa = PBXGroup;
+			children = (
+				D18A30291D488CB400C4C95E /* CXWaterFull */,
+				D18A30431D488CB400C4C95E /* CXWaterFullTests */,
+				D18A304E1D488CB400C4C95E /* CXWaterFullUITests */,
+				D18A30281D488CB400C4C95E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D18A30281D488CB400C4C95E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D18A30271D488CB400C4C95E /* CXWaterFull.app */,
+				D18A30401D488CB400C4C95E /* CXWaterFullTests.xctest */,
+				D18A304B1D488CB400C4C95E /* CXWaterFullUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D18A30291D488CB400C4C95E /* CXWaterFull */ = {
+			isa = PBXGroup;
+			children = (
+				D18A302D1D488CB400C4C95E /* AppDelegate.h */,
+				D18A302E1D488CB400C4C95E /* AppDelegate.m */,
+				D18A30301D488CB400C4C95E /* ViewController.h */,
+				D18A30311D488CB400C4C95E /* ViewController.m */,
+				D18A30331D488CB400C4C95E /* Main.storyboard */,
+				D18A30361D488CB400C4C95E /* Assets.xcassets */,
+				D18A30381D488CB400C4C95E /* LaunchScreen.storyboard */,
+				D18A303B1D488CB400C4C95E /* Info.plist */,
+				D18A302A1D488CB400C4C95E /* Supporting Files */,
+			);
+			path = CXWaterFull;
+			sourceTree = "<group>";
+		};
+		D18A302A1D488CB400C4C95E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D18A302B1D488CB400C4C95E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D18A30431D488CB400C4C95E /* CXWaterFullTests */ = {
+			isa = PBXGroup;
+			children = (
+				D18A30441D488CB400C4C95E /* CXWaterFullTests.m */,
+				D18A30461D488CB400C4C95E /* Info.plist */,
+			);
+			path = CXWaterFullTests;
+			sourceTree = "<group>";
+		};
+		D18A304E1D488CB400C4C95E /* CXWaterFullUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D18A304F1D488CB400C4C95E /* CXWaterFullUITests.m */,
+				D18A30511D488CB400C4C95E /* Info.plist */,
+			);
+			path = CXWaterFullUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D18A30261D488CB400C4C95E /* CXWaterFull */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D18A30541D488CB400C4C95E /* Build configuration list for PBXNativeTarget "CXWaterFull" */;
+			buildPhases = (
+				D18A30231D488CB400C4C95E /* Sources */,
+				D18A30241D488CB400C4C95E /* Frameworks */,
+				D18A30251D488CB400C4C95E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CXWaterFull;
+			productName = CXWaterFull;
+			productReference = D18A30271D488CB400C4C95E /* CXWaterFull.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D18A303F1D488CB400C4C95E /* CXWaterFullTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D18A30571D488CB400C4C95E /* Build configuration list for PBXNativeTarget "CXWaterFullTests" */;
+			buildPhases = (
+				D18A303C1D488CB400C4C95E /* Sources */,
+				D18A303D1D488CB400C4C95E /* Frameworks */,
+				D18A303E1D488CB400C4C95E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D18A30421D488CB400C4C95E /* PBXTargetDependency */,
+			);
+			name = CXWaterFullTests;
+			productName = CXWaterFullTests;
+			productReference = D18A30401D488CB400C4C95E /* CXWaterFullTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D18A304A1D488CB400C4C95E /* CXWaterFullUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D18A305A1D488CB400C4C95E /* Build configuration list for PBXNativeTarget "CXWaterFullUITests" */;
+			buildPhases = (
+				D18A30471D488CB400C4C95E /* Sources */,
+				D18A30481D488CB400C4C95E /* Frameworks */,
+				D18A30491D488CB400C4C95E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D18A304D1D488CB400C4C95E /* PBXTargetDependency */,
+			);
+			name = CXWaterFullUITests;
+			productName = CXWaterFullUITests;
+			productReference = D18A304B1D488CB400C4C95E /* CXWaterFullUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D18A301F1D488CB400C4C95E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xiaoma;
+				TargetAttributes = {
+					D18A30261D488CB400C4C95E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D18A303F1D488CB400C4C95E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D18A30261D488CB400C4C95E;
+					};
+					D18A304A1D488CB400C4C95E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D18A30261D488CB400C4C95E;
+					};
+				};
+			};
+			buildConfigurationList = D18A30221D488CB400C4C95E /* Build configuration list for PBXProject "CXWaterFull" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D18A301E1D488CB400C4C95E;
+			productRefGroup = D18A30281D488CB400C4C95E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D18A30261D488CB400C4C95E /* CXWaterFull */,
+				D18A303F1D488CB400C4C95E /* CXWaterFullTests */,
+				D18A304A1D488CB400C4C95E /* CXWaterFullUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D18A30251D488CB400C4C95E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18A303A1D488CB400C4C95E /* LaunchScreen.storyboard in Resources */,
+				D18A30371D488CB400C4C95E /* Assets.xcassets in Resources */,
+				D18A30351D488CB400C4C95E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D18A303E1D488CB400C4C95E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D18A30491D488CB400C4C95E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D18A30231D488CB400C4C95E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18A30321D488CB400C4C95E /* ViewController.m in Sources */,
+				D18A302F1D488CB400C4C95E /* AppDelegate.m in Sources */,
+				D18A302C1D488CB400C4C95E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D18A303C1D488CB400C4C95E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18A30451D488CB400C4C95E /* CXWaterFullTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D18A30471D488CB400C4C95E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18A30501D488CB400C4C95E /* CXWaterFullUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D18A30421D488CB400C4C95E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D18A30261D488CB400C4C95E /* CXWaterFull */;
+			targetProxy = D18A30411D488CB400C4C95E /* PBXContainerItemProxy */;
+		};
+		D18A304D1D488CB400C4C95E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D18A30261D488CB400C4C95E /* CXWaterFull */;
+			targetProxy = D18A304C1D488CB400C4C95E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D18A30331D488CB400C4C95E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D18A30341D488CB400C4C95E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D18A30381D488CB400C4C95E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D18A30391D488CB400C4C95E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D18A30521D488CB400C4C95E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D18A30531D488CB400C4C95E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D18A30551D488CB400C4C95E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CXWaterFull/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CX.CXWaterFull;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D18A30561D488CB400C4C95E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CXWaterFull/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CX.CXWaterFull;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D18A30581D488CB400C4C95E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CXWaterFullTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CX.CXWaterFullTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CXWaterFull.app/CXWaterFull";
+			};
+			name = Debug;
+		};
+		D18A30591D488CB400C4C95E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CXWaterFullTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CX.CXWaterFullTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CXWaterFull.app/CXWaterFull";
+			};
+			name = Release;
+		};
+		D18A305B1D488CB400C4C95E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CXWaterFullUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CX.CXWaterFullUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CXWaterFull;
+			};
+			name = Debug;
+		};
+		D18A305C1D488CB400C4C95E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CXWaterFullUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CX.CXWaterFullUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CXWaterFull;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D18A30221D488CB400C4C95E /* Build configuration list for PBXProject "CXWaterFull" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18A30521D488CB400C4C95E /* Debug */,
+				D18A30531D488CB400C4C95E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D18A30541D488CB400C4C95E /* Build configuration list for PBXNativeTarget "CXWaterFull" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18A30551D488CB400C4C95E /* Debug */,
+				D18A30561D488CB400C4C95E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D18A30571D488CB400C4C95E /* Build configuration list for PBXNativeTarget "CXWaterFullTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18A30581D488CB400C4C95E /* Debug */,
+				D18A30591D488CB400C4C95E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D18A305A1D488CB400C4C95E /* Build configuration list for PBXNativeTarget "CXWaterFullUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18A305B1D488CB400C4C95E /* Debug */,
+				D18A305C1D488CB400C4C95E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D18A301F1D488CB400C4C95E /* Project object */;
+}
