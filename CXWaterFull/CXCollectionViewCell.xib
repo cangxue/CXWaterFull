@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CXCollectionViewCell" id="gTV-IL-0wX" customClass="CXCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="117" height="159"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="117" height="159"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="text.png" translatesAutoresizingMaskIntoConstraints="NO" id="gID-xf-DUO">
+                        <rect key="frame" x="0.0" y="0.0" width="117" height="159"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lut-U2-XLT">
+                        <rect key="frame" x="0.0" y="138" width="117" height="21"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="NMz-lt-tPO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="0.31391427350000001" blue="0.15628251779999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="gID-xf-DUO" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="GIc-Jn-aKn"/>
+                <constraint firstAttribute="trailing" secondItem="gID-xf-DUO" secondAttribute="trailing" id="Jwv-hA-2Up"/>
+                <constraint firstAttribute="bottom" secondItem="gID-xf-DUO" secondAttribute="bottom" id="RP2-fK-cT4"/>
+                <constraint firstItem="gID-xf-DUO" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="baC-lU-tGn"/>
+                <constraint firstAttribute="bottom" secondItem="Lut-U2-XLT" secondAttribute="bottom" id="g3d-ck-cYU"/>
+                <constraint firstAttribute="trailing" secondItem="Lut-U2-XLT" secondAttribute="trailing" id="iN8-Xw-9uh"/>
+                <constraint firstItem="Lut-U2-XLT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="mFs-78-rCU"/>
+            </constraints>
+            <size key="customSize" width="117" height="159"/>
+            <connections>
+                <outlet property="imgView" destination="gID-xf-DUO" id="NVG-dZ-Ka2"/>
+                <outlet property="priceLabel" destination="Lut-U2-XLT" id="vx4-En-VXq"/>
+            </connections>
+            <point key="canvasLocation" x="138.5" y="321.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="text.png" width="500" height="320"/>
+    </resources>
+</document>

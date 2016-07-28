@@ -15,6 +15,23 @@
 		D18A303A1D488CB400C4C95E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18A30381D488CB400C4C95E /* LaunchScreen.storyboard */; };
 		D18A30451D488CB400C4C95E /* CXWaterFullTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D18A30441D488CB400C4C95E /* CXWaterFullTests.m */; };
 		D18A30501D488CB400C4C95E /* CXWaterFullUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D18A304F1D488CB400C4C95E /* CXWaterFullUITests.m */; };
+		D18A30671D48947400C4C95E /* CXCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D18A30661D48947400C4C95E /* CXCollectionViewLayout.m */; };
+		D18CD19E1D49A4A40082013F /* shopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D18CD19D1D49A4A40082013F /* shopModel.m */; };
+		D18CD1A21D49A8B10082013F /* CXCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D18CD1A01D49A8B10082013F /* CXCollectionViewCell.m */; };
+		D18CD1A31D49A8B10082013F /* CXCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D18CD1A11D49A8B10082013F /* CXCollectionViewCell.xib */; };
+		D18CD1A51D49AC770082013F /* plistdemo.plist in Resources */ = {isa = PBXBuildFile; fileRef = D18CD1A41D49AC770082013F /* plistdemo.plist */; };
+		D18CD1CC1D49B3D20082013F /* MJArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = D18CD1B61D49B3D20082013F /* MJArgument.m */; };
+		D18CD1CD1D49B3D20082013F /* MJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = D18CD1B81D49B3D20082013F /* MJConst.m */; };
+		D18CD1CE1D49B3D20082013F /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D18CD1BB1D49B3D20082013F /* MJFoundation.m */; };
+		D18CD1CF1D49B3D20082013F /* MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = D18CD1BD1D49B3D20082013F /* MJIvar.m */; };
+		D18CD1D01D49B3D20082013F /* MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = D18CD1BF1D49B3D20082013F /* MJMember.m */; };
+		D18CD1D11D49B3D20082013F /* MJMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = D18CD1C11D49B3D20082013F /* MJMethod.m */; };
+		D18CD1D21D49B3D20082013F /* MJType.m in Sources */ = {isa = PBXBuildFile; fileRef = D18CD1C31D49B3D20082013F /* MJType.m */; };
+		D18CD1D31D49B3D20082013F /* MJTypeEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = D18CD1C51D49B3D20082013F /* MJTypeEncoding.m */; };
+		D18CD1D41D49B3D20082013F /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = D18CD1C71D49B3D20082013F /* NSObject+MJCoding.m */; };
+		D18CD1D51D49B3D20082013F /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = D18CD1C91D49B3D20082013F /* NSObject+MJKeyValue.m */; };
+		D18CD1D61D49B3D20082013F /* NSObject+MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = D18CD1CB1D49B3D20082013F /* NSObject+MJMember.m */; };
+		D18CD1D81D49B62E0082013F /* text.png in Resources */ = {isa = PBXBuildFile; fileRef = D18CD1D71D49B62E0082013F /* text.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +68,38 @@
 		D18A304B1D488CB400C4C95E /* CXWaterFullUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CXWaterFullUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D18A304F1D488CB400C4C95E /* CXWaterFullUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXWaterFullUITests.m; sourceTree = "<group>"; };
 		D18A30511D488CB400C4C95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D18A30651D48947400C4C95E /* CXCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXCollectionViewLayout.h; sourceTree = "<group>"; };
+		D18A30661D48947400C4C95E /* CXCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXCollectionViewLayout.m; sourceTree = "<group>"; };
+		D18CD19C1D49A4A40082013F /* shopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shopModel.h; sourceTree = "<group>"; };
+		D18CD19D1D49A4A40082013F /* shopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shopModel.m; sourceTree = "<group>"; };
+		D18CD19F1D49A8B10082013F /* CXCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXCollectionViewCell.h; sourceTree = "<group>"; };
+		D18CD1A01D49A8B10082013F /* CXCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXCollectionViewCell.m; sourceTree = "<group>"; };
+		D18CD1A11D49A8B10082013F /* CXCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CXCollectionViewCell.xib; sourceTree = "<group>"; };
+		D18CD1A41D49AC770082013F /* plistdemo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = plistdemo.plist; sourceTree = "<group>"; };
+		D18CD1B51D49B3D20082013F /* MJArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJArgument.h; sourceTree = "<group>"; };
+		D18CD1B61D49B3D20082013F /* MJArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJArgument.m; sourceTree = "<group>"; };
+		D18CD1B71D49B3D20082013F /* MJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJConst.h; sourceTree = "<group>"; };
+		D18CD1B81D49B3D20082013F /* MJConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJConst.m; sourceTree = "<group>"; };
+		D18CD1B91D49B3D20082013F /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		D18CD1BA1D49B3D20082013F /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		D18CD1BB1D49B3D20082013F /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		D18CD1BC1D49B3D20082013F /* MJIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJIvar.h; sourceTree = "<group>"; };
+		D18CD1BD1D49B3D20082013F /* MJIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJIvar.m; sourceTree = "<group>"; };
+		D18CD1BE1D49B3D20082013F /* MJMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMember.h; sourceTree = "<group>"; };
+		D18CD1BF1D49B3D20082013F /* MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMember.m; sourceTree = "<group>"; };
+		D18CD1C01D49B3D20082013F /* MJMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMethod.h; sourceTree = "<group>"; };
+		D18CD1C11D49B3D20082013F /* MJMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMethod.m; sourceTree = "<group>"; };
+		D18CD1C21D49B3D20082013F /* MJType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJType.h; sourceTree = "<group>"; };
+		D18CD1C31D49B3D20082013F /* MJType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJType.m; sourceTree = "<group>"; };
+		D18CD1C41D49B3D20082013F /* MJTypeEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTypeEncoding.h; sourceTree = "<group>"; };
+		D18CD1C51D49B3D20082013F /* MJTypeEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTypeEncoding.m; sourceTree = "<group>"; };
+		D18CD1C61D49B3D20082013F /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		D18CD1C71D49B3D20082013F /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		D18CD1C81D49B3D20082013F /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		D18CD1C91D49B3D20082013F /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		D18CD1CA1D49B3D20082013F /* NSObject+MJMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJMember.h"; sourceTree = "<group>"; };
+		D18CD1CB1D49B3D20082013F /* NSObject+MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJMember.m"; sourceTree = "<group>"; };
+		D18CD1D71D49B62E0082013F /* text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +150,15 @@
 		D18A30291D488CB400C4C95E /* CXWaterFull */ = {
 			isa = PBXGroup;
 			children = (
+				D18CD1B41D49B3D20082013F /* MJExtension */,
+				D18A305F1D48905E00C4C95E /* model */,
 				D18A302D1D488CB400C4C95E /* AppDelegate.h */,
 				D18A302E1D488CB400C4C95E /* AppDelegate.m */,
 				D18A30301D488CB400C4C95E /* ViewController.h */,
 				D18A30311D488CB400C4C95E /* ViewController.m */,
+				D18CD19F1D49A8B10082013F /* CXCollectionViewCell.h */,
+				D18CD1A01D49A8B10082013F /* CXCollectionViewCell.m */,
+				D18CD1A11D49A8B10082013F /* CXCollectionViewCell.xib */,
 				D18A30331D488CB400C4C95E /* Main.storyboard */,
 				D18A30361D488CB400C4C95E /* Assets.xcassets */,
 				D18A30381D488CB400C4C95E /* LaunchScreen.storyboard */,
@@ -117,6 +171,8 @@
 		D18A302A1D488CB400C4C95E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D18CD1D71D49B62E0082013F /* text.png */,
+				D18CD1A41D49AC770082013F /* plistdemo.plist */,
 				D18A302B1D488CB400C4C95E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +194,47 @@
 				D18A30511D488CB400C4C95E /* Info.plist */,
 			);
 			path = CXWaterFullUITests;
+			sourceTree = "<group>";
+		};
+		D18A305F1D48905E00C4C95E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D18A30651D48947400C4C95E /* CXCollectionViewLayout.h */,
+				D18A30661D48947400C4C95E /* CXCollectionViewLayout.m */,
+				D18CD19C1D49A4A40082013F /* shopModel.h */,
+				D18CD19D1D49A4A40082013F /* shopModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		D18CD1B41D49B3D20082013F /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				D18CD1B51D49B3D20082013F /* MJArgument.h */,
+				D18CD1B61D49B3D20082013F /* MJArgument.m */,
+				D18CD1B71D49B3D20082013F /* MJConst.h */,
+				D18CD1B81D49B3D20082013F /* MJConst.m */,
+				D18CD1B91D49B3D20082013F /* MJExtension.h */,
+				D18CD1BA1D49B3D20082013F /* MJFoundation.h */,
+				D18CD1BB1D49B3D20082013F /* MJFoundation.m */,
+				D18CD1BC1D49B3D20082013F /* MJIvar.h */,
+				D18CD1BD1D49B3D20082013F /* MJIvar.m */,
+				D18CD1BE1D49B3D20082013F /* MJMember.h */,
+				D18CD1BF1D49B3D20082013F /* MJMember.m */,
+				D18CD1C01D49B3D20082013F /* MJMethod.h */,
+				D18CD1C11D49B3D20082013F /* MJMethod.m */,
+				D18CD1C21D49B3D20082013F /* MJType.h */,
+				D18CD1C31D49B3D20082013F /* MJType.m */,
+				D18CD1C41D49B3D20082013F /* MJTypeEncoding.h */,
+				D18CD1C51D49B3D20082013F /* MJTypeEncoding.m */,
+				D18CD1C61D49B3D20082013F /* NSObject+MJCoding.h */,
+				D18CD1C71D49B3D20082013F /* NSObject+MJCoding.m */,
+				D18CD1C81D49B3D20082013F /* NSObject+MJKeyValue.h */,
+				D18CD1C91D49B3D20082013F /* NSObject+MJKeyValue.m */,
+				D18CD1CA1D49B3D20082013F /* NSObject+MJMember.h */,
+				D18CD1CB1D49B3D20082013F /* NSObject+MJMember.m */,
+			);
+			path = MJExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +342,10 @@
 			files = (
 				D18A303A1D488CB400C4C95E /* LaunchScreen.storyboard in Resources */,
 				D18A30371D488CB400C4C95E /* Assets.xcassets in Resources */,
+				D18CD1D81D49B62E0082013F /* text.png in Resources */,
+				D18CD1A51D49AC770082013F /* plistdemo.plist in Resources */,
 				D18A30351D488CB400C4C95E /* Main.storyboard in Resources */,
+				D18CD1A31D49A8B10082013F /* CXCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +370,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D18CD1D51D49B3D20082013F /* NSObject+MJKeyValue.m in Sources */,
+				D18CD1CF1D49B3D20082013F /* MJIvar.m in Sources */,
+				D18CD19E1D49A4A40082013F /* shopModel.m in Sources */,
+				D18CD1A21D49A8B10082013F /* CXCollectionViewCell.m in Sources */,
+				D18CD1D21D49B3D20082013F /* MJType.m in Sources */,
+				D18CD1CD1D49B3D20082013F /* MJConst.m in Sources */,
+				D18CD1CE1D49B3D20082013F /* MJFoundation.m in Sources */,
+				D18CD1D11D49B3D20082013F /* MJMethod.m in Sources */,
+				D18CD1D61D49B3D20082013F /* NSObject+MJMember.m in Sources */,
+				D18CD1D31D49B3D20082013F /* MJTypeEncoding.m in Sources */,
+				D18CD1D01D49B3D20082013F /* MJMember.m in Sources */,
 				D18A30321D488CB400C4C95E /* ViewController.m in Sources */,
 				D18A302F1D488CB400C4C95E /* AppDelegate.m in Sources */,
+				D18CD1CC1D49B3D20082013F /* MJArgument.m in Sources */,
 				D18A302C1D488CB400C4C95E /* main.m in Sources */,
+				D18A30671D48947400C4C95E /* CXCollectionViewLayout.m in Sources */,
+				D18CD1D41D49B3D20082013F /* NSObject+MJCoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +612,7 @@
 				D18A30561D488CB400C4C95E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D18A30571D488CB400C4C95E /* Build configuration list for PBXNativeTarget "CXWaterFullTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +621,7 @@
 				D18A30591D488CB400C4C95E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D18A305A1D488CB400C4C95E /* Build configuration list for PBXNativeTarget "CXWaterFullUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +630,7 @@
 				D18A305C1D488CB400C4C95E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
